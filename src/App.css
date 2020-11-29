@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+h4,
+h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: "700";
+}
+
+h6 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  padding: 20px;
+}
+
+p {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
+a {
+  color: #1d79cf;
+}
+
+header {
+  color: #000;
+  text-align: center;
+}
+
+.flex-container {
+  flex-wrap: wrap;
+  display: flex;
+  font-size: 1em;
+}
+
+.chart-years {
+  padding: 0px 20px 20px 20px;
+  font-weight: bold;
+  color: #181e26;
+  font-size: 0.8rem;
+}
+
+.chart-finland {
+  padding: 0px 20px 20px 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.bar {
+  height: 14px;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-right: 10px;
+  background-color: #ff007a;
+}
+
+.parks {
+  width: 6vw;
+  margin: 0px 30px 20px 0px;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.area-parks {
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  height: 56px;
+  width: 56px;
+  background-color: #db8ad0;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
